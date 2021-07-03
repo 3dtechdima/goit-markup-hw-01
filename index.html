@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,62 +15,79 @@
 </head>
 <body>
     <!--Header-->
-    <div>
-<p class="top-line-bg">
-<h2 class="WebStudio">Web<span class="studio">Studio</span></h2>
-<h5 class="Studio">Студия</h5>
-<h5 class="portfolio">Портфолио</h5>
-<h5 class="contacts">Контакты</h5>
-<a class="mail" href="mailto:info@devstudio">info@devstudio.com</a>
-<a class="tel" href="tel:+380961111111">+38 096 111-11-11</a>
-</p>
-</div>
+<header class="heder">
+<nav>
+<a class="WebStudio" href="/">Web<span class="studio">Studio</span></a>
+<ul> 
+<li><a class="Studio" href=""> Студия</a></li>
+<li><a class="portfolio" href="">Портфолио</a></li>
+<li><a class="contacts" href="">Контакты</a>a></li>
+</ul>
+<ul>
+<li><a class="mail" href="mailto:info@devstudio">info@devstudio.com</a></li>
+<li><a class="tel" href="tel:+380961111111">+38 096 111-11-11</a></li>
+</ul>
+</nav>
+</header>
 
 <main>
-<div class="BG">
     <!--Site title-->
-    <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-   <div class="bgm"> <h5 class="order-service">Заказать услугу</h5></div>
-</div>
+    <section class="BG">
+<h1 class="title">Эффективные решения <br /> для вашего бизнеса</h1>
+<form class="bgm"> <p><button class="order-service" type="button">Заказать услугу</button></p></form>
+</section>
 
 <!--Description of the benefits-->
-<div>
-<div>
-<h4 class="Attention-to-detail">Внимание к деталям</h4>
+<section>
+<ul>
+<li>
+<h3 class="Attention-to-detail">Внимание к деталям</h3>
 <p class="Attention-to-detail2">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-</div>
+</li>
 
-<div>
-    <h4 class="Punctuality">Пунктуальность</h4>
+<li>
+    <h3 class="Punctuality">Пунктуальность</h3>
     <p class="Punctuality2">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-</div>
+</li>
 
-<div>
-    <h4 class="Planning">Планирование</h4>
+<li>
+    <h3 class="Planning">Планирование</h3>
     <p class="Planning2">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-</div>
-<div>
-    <h4 class="Modern-technologies">Современные технологии</h4>
+</li>
+<li>
+    <h3 class="Modern-technologies">Современные технологии</h3>
     <p class="Modern-technologies2">начимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-</div>
+</li>
+</ul>
+</section>
 
-</div>
-<h3 class="What-are-we-doing">Чем мы занимаемся</h3>
-<img class="img1" src="img/box 1.png" alt="Верстка">
-<img class="img2" src="img/box2.png" alt="Разработка пиложений для Android/Ap">
-<img class="img3" src="img/box 3.png" alt="Дизайн">
-<h3 class="our-team">Наша команда</h3>
-<img class="card1" src="img/team card 1.png" alt="Игорь Демьяненко">
-<img class="card2" src="img/team card 2.png" alt="Ольга Репина">
-<img class="card3" src="img/team card 3.png" alt="Николай Тарасов">
-<img class="card4" src="img/team card 4.png" alt="Михаил Ермаков">
+<section>
+<h2 class="What-are-we-doing">Чем мы занимаемся</h2>
+<ul>
+<li><img class="img1" src="./images/image1.png" alt="Картинка верстка" width="370" height="294"></li>
+<li><img class="img2" src="./images/image2.png" alt="Картинка адаптирование сайта для смартфонов" width="370" height="294"></li>
+<li><img class="img3" src="./images/image3.png" alt="Картинка дизайн" width="370" height="294"></li>
+</ul>
+</section>
+<section>
+<h2 class="our-team">Наша команда</h2>
+<ul>
+<li><img class="card1" src="./images/team_card_1.png" alt="Фото Игорь Демьяненко" width="270"></li>
+<li><img class="card2" src="./images/team_card_2.png" alt="Фото Ольга Репина" width="270"></li>
+<li><img class="card3" src="./images/team_card_3.png" alt="Фото Николай Тарасов" width="270"></li>
+<li><img class="card4" src="./images/team_card_4.png" alt="Фото Михаил Ермаков" width="270"></li>
+</ul>>
+</section>
 </main>
 
 <footer class="footer">
-<h2 class="WebStudio2">Web<span class="studio2">Studio</span></h2>
-<address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-<p><a class="mail2" href="mailto:info@example.com">info@example.com</a></p>
-<p><a class="tel2" href="tel:+380991111111">+38 099 111-11-11</a></p>
+    <h2 class="WebStudio2">Web<span class="studio2">Studio</span></h2>
+<ul>
+<li><address class="address">г. Киев, пр-т Леси Украинки, 26</address></li>
+<li><a class="mail2" href="mailto:info@example.com">info@example.com</a></li>
+<li><a class="tel2" href="tel:+380991111111">+38 099 111-11-11</a></li>
+</ul>
 </footer>
 </body>
+
 </html>
